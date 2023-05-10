@@ -1,4 +1,4 @@
-const stringLength = require('./index.js');
+const stringLength = require('./stringLength.js');
 
 test('length', () => {
     expect(stringLength('words')).toBe(5);
